@@ -1,32 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; Construction Section 01</title>
+    <title>&lt;model-viewer&gt; Construction_Section_01</title>
     <meta charset="utf-8">
-    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="description" content="&lt;model-viewer&gt; Construction_Section_01">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="Construction Section_01.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" camera-orbit="305.5deg 74.83deg 14.97m" field-of-view="30deg" exposure="0.5">
-      <button class="Hotspot" slot="hotspot-2" data-position="0.14750001308687588m 4.603026205272397m -0.6445704399832366m" data-normal="-0.9999999999999994m 1.5367466376424592e-18m -3.422854295029559e-8m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">External Wall</div>
-      </button><button class="Hotspot" slot="hotspot-5" data-position="1.253178084923992m 1.0500000493493107m -0.6942170580017392m" data-normal="0m 1m 4.4896641959724086e-11m" data-visibility-attribute="visible">
+    <model-viewer src="Construction Section_01.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="328.7deg 68.93deg 14.97m" field-of-view="30deg">
+      <button class="Hotspot" slot="hotspot-1" data-position="1.1365699829150921m 1.0500000493458697m -0.6175879470704284m" data-normal="0m 1m 4.4896641959724086e-11m" data-visibility-attribute="visible">
           <div class="HotspotAnnotation">Ground Floor</div>
-      </button><button class="Hotspot" slot="hotspot-6" data-position="1.1574819339545872m 3.7820001794401055m -0.6205959400283155m" data-normal="0m 1m 4.489664195972409e-11m" data-visibility-attribute="visible">
+      </button><button class="Hotspot" slot="hotspot-2" data-position="1.1559918013961268m 3.7820001794395774m -0.6088427625494081m" data-normal="0m 1m 4.489664195972409e-11m" data-visibility-attribute="visible">
           <div class="HotspotAnnotation">Intermediate Floor</div>
-      </button><button class="Hotspot" slot="hotspot-7" data-position="0.8383865284364014m 6.737272952804552m -0.6689329556975857m" data-normal="-0.4170514501616451m 0.9088828790983297m 4.0805555262152806e-11m" data-visibility-attribute="visible">
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.6085038988945597m 6.59879416002192m -0.6868482457759819m" data-normal="-0.4171079325636264m 0.9088569593684683m 4.080382675273128e-11m" data-visibility-attribute="visible">
           <div class="HotspotAnnotation">Pitched Roof</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.147500007005878m 2.6576874270754276m -0.6661758888028656m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">External Wall</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="0m 0.10423690590914947m -0.6765554371347617m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Foundation</div>
       </button>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="ar_hand_prompt.png">
       </div>
     </model-viewer>  
     <script src="script.js"></script>
